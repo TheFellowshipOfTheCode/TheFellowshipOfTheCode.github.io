@@ -1,0 +1,256 @@
+
+body {
+			    font-family: "Open Sans";
+			    color: #808080;
+			    font-weight: 400;
+			    font-size: 14px;
+			    line-height: 26px;
+			    word-spacing: 2px;
+}
+h1, h2, h3, h4, h5, h6 {
+			    font-family: "Oswald";
+			    color: #4C4C4C;
+			    letter-spacing: 1px;
+			    font-weight: 400;
+}
+.white h2,.white h4	{color:white;}
+.call-2-acction {
+			    background-image: url("../IMG/c2a.png");
+			    background-attachment: fixed;
+			    background-color: #000;
+}
+.team-member {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.team-member img {
+    margin: 0px auto;
+    border: 7px solid #FFF;
+}
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    text-transform: none;
+    color: #FFF;
+}
+.img-responsive {
+    display: inline-block;
+}
+
+.navbar-default .navbar-toggle .icon-bar {background-color: #FFF;}
+.navbar-default {background-color: rgba(40, 40, 40, 0.95);border-color: transparent;min-width:305px;}
+.navbar-default .navbar-brand {font-size: 18px;color:#fff;height: auto;}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #1ABB9C;border-color: #1ABB9C;}
+.navbar-default .navbar-collapse {border-color: rgba(255, 255, 255, 0.02);}
+.navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li.active a:hover, .navbar-default .navbar-nav > li.active a:focus, .navbar-default .navbar-nav > li.active a:active {
+					    color: #4ECDC4;
+					    background-color: transparent;}
+.navbar-default .navbar-nav > li > a {
+					    font-family: "Oswald";
+					    font-size: 15px;
+					    font-weight: 300;
+					    letter-spacing: 1px;
+					    padding-left: 20px;
+					    padding-right: 20px;
+					    color: #FFF;
+					    transition: color 0.3s ease 0s, background-color 0.3s ease 0s, padding 0.3s ease 0s;
+}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-brand:hover  {color: #1ABB9C;}
+.navbar-default.navbar-shrink 		    {background-color: rgba(40, 40, 40, 0.95);}
+.navbar-default.navbar-shrink .navbar-nav > li.active > a, .navbar-default.navbar-shrink .navbar-nav > li.active a:hover, .navbar-default.navbar-shrink .navbar-nav > li.active a:focus, .navbar-default.navbar-shrink .navbar-nav > li.active a:active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.section-title p {
+					    font-family: "Oswald";
+					    text-transform: uppercase;
+					    color: #4ECDC4;
+					    font-size: 38px;
+					    line-height: 58px;
+					    font-weight: 700;
+					    letter-spacing: 3px;
+}
+.c2a p 					  {margin-bottom: 40px;}
+footer ul.quicklinks a:hover		  {text-decoration:underline;}
+.pd100				  	  {padding: 100px 0px;}
+.section-title 				  {margin-bottom: 70px;}
+.c2a 					  {margin: 0px auto;color: #FFF !important;}
+.c2a h2 				  {font-size: 35px;font-weight: 400;text-transform: uppercase;letter-spacing: 3px;}
+.c2a h2::after 				  {content: "";display: block;width: 80px;height: 1px;background-color: #4ECDC4;margin: 15px auto 20px;}
+
+header 					  {background-image: url("../IMG/background.jpg");background-attachment: scroll;background-position: center center;background-size: cover;text-align: center;color: #FFF;padding: 100px 0px;}
+
+a, a:hover, a:focus, a:active, a.active {
+					    outline: 0px none;
+}
+
+ul.social-buttons {
+    margin-top: 30px;
+}
+ul.social-buttons li a {
+    		display: block;
+    		background-color: #222;
+    		height: 40px;
+    		width: 40px;
+    		border-radius: 100%;
+    		font-size: 20px;
+    		line-height: 40px;
+    		color: #FFF;
+    		outline: 0px none;
+   	 	transition: all 0.3s ease 0s;
+}
+ul.social-buttons li a:hover {
+		background-color: #1ABB9C;
+}
+ul.social-buttons.mt0		{margin-top: 0px;}
+header .intro-text .intro-work {
+	        font-family: "Oswald";
+	        font-weight: 300;
+	        letter-spacing: 2px;
+	        margin-bottom: 0px;
+}
+header .intro-text .intro-work::after {
+	        content: "";
+	        display: block;
+	        width: 200px;
+	        height: 4px;
+	        margin: 20px auto 0px;
+	        background-color: transparent;
+	        border-width: 1px 0px;
+	        border-style: solid;
+	        border-color: rgba(255, 255, 255, 0.3);
+}
+
+header .intro-text .intro-title {
+	       font-family: "Oswald";
+	       color: #FFF;
+	       text-transform: uppercase;
+	       font-size: 70px;
+	       line-height: 85px;
+	       font-weight: 400;
+	       letter-spacing: 8px;
+	       word-spacing: 4px;
+	       margin-bottom: 15px;
+	       margin-top: 5px;
+	       padding: 20px 10px;
+}
+#Projects .portfolio-item .portfolio-link 	{
+						display: block;
+						position: relative;
+						max-width: 400px;
+						margin: 0px auto;
+						}
+#Projects .portfolio-item .portfolio-link:hover .portfolio-hover {
+    						background: rgba(254, 209, 54, 0.9) none repeat scroll 0% 0%;
+    						position: absolute;
+    						width: 100%;
+    						height: 100%;
+    						opacity: 1;
+    						transition: all 0.5s ease 0s;
+					  	}
+#Projects .portfolio-item .portfolio-caption p {
+    						font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    						font-style: italic;
+    						font-size: 16px;
+    						margin: 0px;
+						}
+#Projects .portfolio-item .portfolio-caption h4 {
+    						text-transform: none;
+    						margin: 0px;
+						}
+#Projects .portfolio-item .portfolio-caption {
+    						max-width: 400px;
+    						margin: 0px auto;
+    						background-color: #FFF;
+    						text-align: center;
+    						padding: 25px;
+						}
+#Projects .portfolio-item .portfolio-link .portfolio-hover:hover .portfolio-hover-content {
+						display:block;
+    						position: absolute;
+    						width: 100%;
+    						height: 20px;
+    						font-size: 20px;
+    						text-align: center;
+    						top: 50%;
+    						margin-top: -12px;
+    						color: #FFF;
+						}
+#Projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    						display:none;
+						}
+
+footer {
+    		padding: 25px 0px;
+    		text-align: center;
+}
+footer span.copyright {
+    		line-height: 40px;
+    		font-family: "Oswald";
+    		text-transform: none;
+		color: #fff;
+}
+footer ul.quicklinks {
+    		margin-bottom: 0px;
+    		line-height: 40px;
+    		font-family: "Oswald";
+    		text-transform: none;
+}
+
+header .intro-text a.btn {
+               text-transform: uppercase;
+}
+.btn.btn-lg {
+	       padding: 10px 35px;
+	       letter-spacing: 2px;
+	       font-size: 21px;
+}
+.btn-main {
+	       color: #FFF;
+	       background-color: #1ABB9C;
+	       border-color: #1ABB9C;
+}
+.btn-main:hover {color: #1ABB9C; background-color: #FFF; border-color:#fff;}
+.btn {
+	       font-family: "Oswald";
+	       font-size: 16px;
+	       letter-spacing: 1px;
+	       border-radius: 40px;
+	       padding: 8px 30px;
+	       margin-bottom: 5px;
+	       transition: color 0.3s ease 0s, background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+}
+.btn-primary {
+    		color: #FFF;
+    		background-color: #FED136;
+    		border-color: #FED136;
+    		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    		text-transform: uppercase;
+    		font-weight: 700;
+}
+
+@media (min-width: 768px){
+	
+
+	header .intro-text {
+    			padding-top: 130px;
+    			padding-bottom: 200px;
+	}
+	.navbar-nav > li > a {
+		padding-top: 41px;
+		padding-bottom: 41px;
+	}
+	.navbar-default {
+			    background-color: transparent;
+			    border-width: 0px;
+			    margin-bottom: 0px !important;
+			    height: 102px;
+			    transition: background-color 0.3s ease 0s, height 0.3s ease 0s;
+	}
+	.navbar-default .navbar-brand {padding: 41px 15px;}
+	.navbar-default.navbar-shrink  {height: 60px;}
+	.navbar-default.navbar-shrink .navbar-brand {padding: 20px;}
+	.navbar-default.navbar-shrink .navbar-nav > li > a {padding-top: 20px;padding-bottom: 20px;}
+}
+
+
