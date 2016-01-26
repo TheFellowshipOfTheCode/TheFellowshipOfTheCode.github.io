@@ -71,6 +71,23 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1052;
 }
 
+.portfolio-modal .modal-body img {
+    margin-bottom: 3em;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-body ul {
+    text-align: left;
+    margin-top: -1em;
+}
+
+.portfolio-modal .modal-body ul li {
+    margin-left: 10%;
+}
+
 .img-responsive {
     display: inline-block;
 }
