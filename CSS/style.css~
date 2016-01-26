@@ -88,6 +88,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 10%;
 }
 
+.portfolio-modal .modal-content ul.list-inline {
+    margin-bottom: 30px;
+    margin-top: 5em;
+}
+
 .img-responsive {
     display: inline-block;
 }
