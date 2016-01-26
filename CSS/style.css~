@@ -34,6 +34,37 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: none;
     color: #FFF;
 }
+.portfolio-modal .modal-content {
+    border-radius: 0px;
+    background-clip: border-box;
+    box-shadow: none;
+    border: 0px none;
+    min-height: 100%;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal .lr {
+    height: 75px;
+    width: 1px;
+    margin-left: 35px;
+    background-color: #222;
+    transform: rotate(45deg);
+    z-index: 1051;
+}
+
+
+
 .img-responsive {
     display: inline-block;
 }
