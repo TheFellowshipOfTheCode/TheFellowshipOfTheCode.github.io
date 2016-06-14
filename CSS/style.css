@@ -278,7 +278,7 @@ header .intro-text a.btn {
 	       background-color: #f6a425;
 	       border-color: #ffffff;
 }
-.btn-main:hover {color: #1ABB9C; background-color: #FFF; border-color:#fff;}
+.btn-main:hover {color: #f6a425; background-color: #FFF; border-color:#fff;}
 .btn {
 	       font-family: "Oswald";
 	       font-size: 16px;
